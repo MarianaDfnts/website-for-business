@@ -1,0 +1,420 @@
+.b-g{
+    height: 700px;
+    background-image: url("../image/101.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 14vw;
+    text-shadow: 5px 5px 5px black; 
+}
+.nav-item {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px; 
+    font-style: bold;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  } 
+  .text {
+    background-color: black;
+    height: fit-content;
+    color:white;
+    margin: 12px;
+    font-style: italic;
+  }
+  .text-about1, .text-about2, .text-about3{
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin: 15px;
+    text-align: justify;
+    font-size: 24px;
+}
+.text-center{
+    font-size: 28px;
+}
+.images{
+    height: fit-content;
+}
+img{
+    max-width:90%;
+    height:330px;
+    margin:20px;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid rgb(255, 255, 255); /* Параметры рамки */
+   }
+   .b-g2{
+    height: 700px;
+    background-image: url("../image/100.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+h3{
+    text-align: center;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size:40px;
+    text-shadow: 3px 3px 3px black; 
+}
+.product-wrap {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+ }
+ .product-image {
+    position: relative;
+    overflow: hidden;
+ }
+ .product-image a {
+    display: block;
+ }
+ .product-image img {
+    display: block;
+    width: 100%;
+ }
+ .shadow {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .3s ease-in-out;
+ }
+ .product-wrap:hover .shadow {
+    opacity: 1;
+ }
+ .detail-link {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background: #ff7659;
+    border-radius: 3px;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: .3s ease-in-out;
+ }
+ .detail-link:before {
+    content: "\f06e";
+    font-family: FontAwesome;
+    color: white;
+    font-size: 20px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+    transition: .3s ease-in-out;
+ }
+ .product-wrap:hover .detail-link {
+    opacity: 1;
+    top: 50%;
+ }
+ .actions {
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    bottom: -47px;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+ }
+ .product-wrap:hover .actions {
+    bottom: 0;
+    opacity: 1;
+ }
+ .actions-btn {
+    float: right;
+ }
+ .actions-btn a {
+    display: inline-block;
+    background: white;
+    color: #555;
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+ }
+ .actions-btn a:hover {
+    background: #030303;
+    color: white;
+ }
+ .actions-btn a:after {
+    font-family: FontAwesome;
+    font-size: 14px;
+ }
+ .add-to-cart:after {
+    content: "\f07a";
+ }
+ .add-to-wishlist:after {
+    content: "\f004";
+ }
+ .add-to-compare:after {
+    content: "\f079";
+ }
+ .product-list {
+    margin: 20px 0;
+    font-family: 'Open Sans', serif;
+ }
+ .product-list h3 {
+    color: #555;
+    font-size: 15px;
+ }
+ .price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff7659;
+ }
+ .justify-content-center border-bottom pb-3 mb-3{
+    margin: 15px;
+    height: fit-content;
+    background-color: black;
+ }
+ .b-g3{
+    height: 700px;
+    background-image: url("../image/103.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+.b-g4{
+    height: 700px;
+    background-image: url("../image/102.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+.catalog{
+   height: fit-content;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+ }
+ 
+ .price {
+   color: rgb(5, 5, 5);
+   font-size: 22px;
+ }
+ 
+ .card button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: rgb(54, 20, 0);
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card button:hover {
+   opacity: 0.7;
+ }
+ .flex-container {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: rgb(255, 255, 255);
+   justify-content: center;
+ }
+ 
+ .flex-container > div {
+   background-color: #ffffff;
+   width: 100%;
+   margin: 10px;
+ }
+ h4{
+    margin:0px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px black;
+ }
+ .price{
+   color:rgb(0, 0, 0);
+   font-family: 'Dancing Script', cursive;
+   font-weight: 900;
+ }
+ * {
+   box-sizing: border-box;
+}
+body {
+   background: #ffffff;
+}
+.decor {
+   position: relative;
+   max-width:550px;
+   margin: 50px auto 0;
+   background-image: url("../image/herbs.jpg");
+   border-radius: 30px;
+}
+.form-left-decoration, .form-right-decoration {
+   content: "";
+   position: absolute;
+   width: 50px;
+   height: 20px;
+   background: #363636;
+   border-radius: 20px;
+}
+.form-left-decoration {
+   bottom: 60px;
+   left: -30px;
+}
+.form-right-decoration {
+   top: 60px;
+   right: -30px;
+}
+.form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
+   content: "";
+   position: absolute;
+   width: 50px;
+   height: 20px;
+   border-radius: 30px;
+   background: white;
+}
+.form-left-decoration:before {
+   top: -20px;
+}
+.form-left-decoration:after {
+   top: 20px;
+   left: 10px;
+}
+.form-right-decoration:before {
+   top: -20px;
+   right: 0;
+}
+.form-right-decoration:after {
+   top: 20px;
+   right: 10px;
+}
+.circle {
+   position: absolute;
+   bottom: 80px;
+   left: -55px;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background: white;
+}
+.form-inner {
+   padding: 50px;
+}
+.form-inner input, .form-inner textarea {
+   display: block;
+   width: 100%;
+   padding: 0 20px;
+   margin-bottom: 10px;
+   background: #E9EFF6;
+   line-height: 40px;
+   border-width: 0;
+   border-radius: 30px;
+   font-family: 'Dancing Script', cursive;
+}
+.form-inner input[type="submit"] {
+   margin-top: 30px;
+   background: transparent;
+   color: white;
+   text-shadow: 5px 5px 5px black; 
+   font-size: 40px;
+}
+.form-inner textarea {
+   resize: none;
+}
+.form-inner h2 {
+   text-align: center;
+   margin-top: 0;
+   font-family: 'Dancing Script', cursive;
+   font-weight: 500;
+   font-size: 40px;
+   color: #ffffff;
+   text-shadow: 5px 5px 5px black; 
+}
+.b-g5{
+   height: 700px;
+   background-image: url("../image/bg-4.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: black;
+}
+.text-center {
+   font-family: 'Dancing Script', cursive;
+   font-weight: 500;
+   font-size: 40px;
+}
+.text-about5, .text-about5, .text-about5{
+   padding: 20px;
+   font-family: 'Dancing Script', cursive;
+   margin: 15px;
+   text-align: justify;
+   font-size: 35px;
+}
+h6{
+   font-family: 'Dancing Script', cursive; 
+   font-size: 5vw;
+}
+.block-1{
+   background: rgb(255, 255, 255);
+}
